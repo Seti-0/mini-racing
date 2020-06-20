@@ -1,1 +1,1 @@
-Template repository for duality plugins. For now, just contains duality and a suitable .gitignore
+A small test 2D racing game project, made with Duality 
