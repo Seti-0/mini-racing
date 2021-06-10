@@ -47,8 +47,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cars\Car.cs" />
+    <Compile Include="Cars\CarController.cs" />
+    <Compile Include="Cars\CarDimensions.cs" />
+    <Compile Include="Cars\CarSpecification.cs" />
+    <Compile Include="Cars\CarSystem.cs" />
+    <Compile Include="CategoryNames.cs" />
     <Compile Include="CorePlugin.cs" />
+    <Compile Include="Misc\CameraController.cs" />
+    <Compile Include="Physics\Solid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Units.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- Copy all plugin binaries to the plugin folder -->
